@@ -10,7 +10,7 @@
 
 ##  Sobre o Projeto
 
-O **Produty** é uma tela de login criada com base em um tutorial do **Dev Club**, com melhorias de interface, novas telas e rotas personalizadas.  
+O **Produty** é uma tela de login criada com base em um tutorial do **Dev Club**, com melhorias de interface feitas primeiramente no figma, novas telas e rotas personalizadas.  
 O objetivo do projeto foi praticar **React, Express e MongoDB**, integrando **frontend e backend**, incluindo autenticação e registro de usuários.
 
 ---
