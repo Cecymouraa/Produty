@@ -1,51 +1,16 @@
-# Produty - Tela de Login
+# React + Vite
 
-![Produty](https://img.shields.io/badge/Produty-React-blue) 
-![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=flat&logo=mongodb&logoColor=white) 
-![Express](https://img.shields.io/badge/Express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB) 
-![Vite](https://img.shields.io/badge/Vite-%234BC0E7.svg?style=flat&logo=vite)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-##  Sobre o Projeto
+## React Compiler
 
-O **Produty** é uma tela de login criada com base em um tutorial do **Dev Club**, com melhorias de interface feitas primeiramente no figma, novas telas e rotas personalizadas.  
-O objetivo do projeto foi praticar **React, Express e MongoDB**, integrando **frontend e backend**, incluindo autenticação e registro de usuários.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-##  Tecnologias Utilizadas
-
-- **MongoDB** – Banco de dados NoSQL  
-- **React** – Biblioteca para interface do usuário  
-- **Express** – Framework para servidor Node.js  
-- **Vite** – Bundler rápido para React  
-
----
-
-##  Funcionalidades
-
-- Tela de login e registro de usuários  
-- Autenticação via POST  
-- Criação de novos usuários via POST  
-- Rotas separadas para login e registro (GET)  
-- Testes de rotas com **Thunder Client** ou **Postman**  
-- Responsividade básica para mobile  
-
----
-
-## 🔧 Rotas Criadas
-
-| Método | Rota        | Função |
-|--------|------------|--------|
-| GET    | `/login`   | Mostrar formulário de login |
-| GET    | `/registro`| Mostrar formulário de registro |
-| POST   | `/login`   | Autenticação do usuário |
-| POST   | `/usuarios`| Criação de usuários (body params) |
-
----
-
-## Interface
-
-<img width="1896" height="902" alt="image" src="https://github.com/user-attachments/assets/4dfd4518-a403-4a8a-9b2d-fdde176e275c" />
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

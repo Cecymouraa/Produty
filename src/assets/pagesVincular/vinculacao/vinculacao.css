@@ -1,0 +1,97 @@
+/* Container principal da tela de vinculação */
+.vinc-container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* Removido o background aqui para usar o do body global */
+}
+
+/* O card centralizado e escuro */
+.vinc-card {
+  width: 450px; /* Largura menor que o login, estilo "modal" */
+  background-color: #120024;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.titleProduty {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 5px;
+  font-weight: 800;
+}
+
+.fraseTitle {
+  color: #c6b3dd;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+/* Estilização dos quadradinhos do código */
+.codigo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.codigo input {
+  width: 40px;
+  height: 50px;
+  background-color: #e1e1ff;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #120024;
+  outline: none;
+}
+
+.traco {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.linha {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 25px 0;
+}
+
+.temVinculo {
+  color: #c6b3dd;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/* Botão de Criar Equipe */
+.btnCriar {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background: #342a73; /* Roxo médio para combinar */
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.btnCriar:hover {
+  background: #453896;
+}
